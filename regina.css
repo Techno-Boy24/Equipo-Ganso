@@ -36,18 +36,29 @@ img{
     height: auto;
     position: absolute;
     top:50%;
-    left:50;
+    left:50%;
     transform: translate(-50%, -50%);
-    width: 170%
+    width: 50%
 }
 
 .tarjeta3
 img{
     height: auto;
     position: absolute;
-    top: 50%;
-transform: translate(-50%, -50%);
-width: 170%
+    top:50%;
+    left:50%;
+    transform: translate(-90%, -50%);
+    width: 50%;
+}
+
+.tarjeta4
+img{
+    height: auto;
+    position: absolute;
+    top:50%;
+    left:70%;
+    transform: translate(-90%, -40%);
+    width: 70%;
 }
 
 
