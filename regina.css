@@ -61,6 +61,134 @@ img{
     width: 70%;
 }
 
+.holi {
+
+    background-color: rgb(51, 89, 54)
+
+}
+
+.patoland {
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+    
+    }
+    
+    .row {
+        display: flex;
+        height: 100vh;
+    }
+    
+    .s-1 {
+       width: 10%;  
+       background-color: rgb(100, 148, 98);
+    }
+    
+    [calss*="s-"].mobile {
+     display: none;   
+    }
+    
+    .s-8 {
+        width: 80%;
+        background-color: rgb(93, 154, 228);
+    }
+    
+.s-2 {
+    width: 80%;
+    background-color: rgb(228, 93, 174);    
+}
+
+    /* medida standar moviles. */
+    @media only screen and (max-width: 768px) {
+    
+       .row{
+        display: block;
+       } 
+    
+       .col {
+        display: block;
+        padding: 5%;
+       }
+    
+       [class*="s-"].mobile {
+        display: block;
+       }
+    
+    }
+    
+     
+    .imagen-1 img {
+        height: auto;
+    position: 
+    top: 50%;
+    left: 50%;
+    transform: translate(-%, -50%);
+    width: 103%;
+    }
+    
+    .imagen-2 img {
+        height: auto;
+        position:
+        top: 50%;
+        left: 50%;
+        transform: translate(-4%, -13%);
+        width: 107%;
+    }
+    
+    .imagen-3 img 
+    {
+        height: auto;
+        position:
+        top: 10%;
+        left: 10%;
+        transform: translate(-3%, -10%);
+        width: 115%;   
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,800&display=swap');
 
