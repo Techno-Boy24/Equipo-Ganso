@@ -1,9 +1,20 @@
-.fondo
-{
-background-color: #dbdbdb;
-}
 
-.letra
-{
-    
-}
+#fs-4 {
+    font-family: 'Metal Mania';
+  }
+
+  #fs-4 {
+    font-size: 50px;
+  }  
+
+  .contenedorprincipal{
+    border-right: 0.5px solid black;
+  }
+
+  .noticia{
+    border-bottom: 0.5px solid black;
+  }
+
+  h3{
+    font-weight: 700; color: solid black ; font-size: 3rem;
+  }
